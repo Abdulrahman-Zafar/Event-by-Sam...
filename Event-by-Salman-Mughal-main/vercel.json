@@ -1,0 +1,6 @@
+{
+  "installCommand": "cd eventManagenebtApp && npm install",
+  "buildCommand": "cd eventManagenebtApp && npm run build",
+  "outputDirectory": "eventManagenebtApp/dist",
+  "framework": "vite"
+}

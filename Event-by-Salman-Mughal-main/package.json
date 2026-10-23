@@ -1,0 +1,10 @@
+{
+  "name": "event-management-app",
+  "private": true,
+  "scripts": {
+    "dev": "cd eventManagenebtApp && npm run dev",
+    "build": "cd eventManagenebtApp && npm run build",
+    "preview": "cd eventManagenebtApp && npm run preview",
+    "lint": "cd eventManagenebtApp && npm run lint"
+  }
+}
