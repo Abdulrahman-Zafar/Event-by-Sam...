@@ -19,9 +19,9 @@ const officeAddresses = [
 function Contactus() {
   useSeo({
     path: "/contactus",
-    title: "Contact Us | Book an Event Planner in Lahore & Muzaffargarh",
+    title: "Contact Us | Book an Event Planner & Photographer in Punjab",
     description:
-      "Book your mehndi, barat, walima or birthday event. Call or WhatsApp 0310 6881263. Offices in Lahore and Muzaffargarh.",
+      "Book your mehndi, barat, walima or birthday event. Call or WhatsApp 0310 6881263. Offices in Lahore and Muzaffargarh; serving all major Punjab cities, Islamabad and Rawalpindi.",
   });
   const settings = fallbackSettings;
   const selectedDesign = useLocation().state?.design;
@@ -98,17 +98,20 @@ Selected Design: ${selectedDesign}` : ""}
                   <option disabled selected>
                     Region
                   </option>
-                  <option value="US">Muzaffargarh</option>
-                  <option value="US">Khangarh</option>
-                  <option value="US">Muradaabad</option>
-                  <option value="CA">Multan</option>
-                  <option value="CA">Kotaddu</option>
-                  <option value="CA">Lahore</option>
-                  <option value="CA">Fasilabad</option>
-                  <option value="CA">Jung</option>
-                  <option value="CA">Bawalpur</option>
-                  <option value="CA">Islamabad</option>
-                  <option value="US">Other</option>
+                  <option value="Lahore">Lahore</option>
+                  <option value="Multan">Multan</option>
+                  <option value="Muzaffargarh">Muzaffargarh</option>
+                  <option value="Faisalabad">Faisalabad</option>
+                  <option value="Sialkot">Sialkot</option>
+                  <option value="Gujranwala">Gujranwala</option>
+                  <option value="Khangarh">Khangarh</option>
+                  <option value="Bahawalpur">Bahawalpur</option>
+                  <option value="Dera Ghazi Khan">Dera Ghazi Khan</option>
+                  <option value="Islamabad">Islamabad</option>
+                  <option value="Rawalpindi">Rawalpindi</option>
+                  <option value="Kot Addu">Kot Addu</option>
+                  <option value="Jhang">Jhang</option>
+                  <option value="Other">Other</option>
                 </select>
                 {/* <div class="pointer-events-none absolute inset-y-0 right-0 flex  items-center px-2 text-gray-700">
                             <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
@@ -129,15 +132,15 @@ Selected Design: ${selectedDesign}` : ""}
                   <option disabled selected>
                     Pick your Event
                   </option>
-                  <option value="Sales">Mehndi</option>
-                  <option value="Service">Wallima</option>
-                  <option value="Service">Baarat</option>
-                  <option value="Service">Birthday</option>
-                  <option value="Service">Party</option>
-                  <option value="Service">Dj/Sound System</option>
-                  <option value="Service">Lighting</option>
-                  <option value="Service">Photography</option>
-                  <option value="Service">Digital Card</option>
+                  <option value="Mehndi">Mehndi</option>
+                  <option value="Walima">Walima</option>
+                  <option value="Barat">Barat</option>
+                  <option value="Birthday">Birthday</option>
+                  <option value="Party">Party</option>
+                  <option value="DJ/Sound System">DJ/Sound System</option>
+                  <option value="Lighting">Lighting</option>
+                  <option value="Photography">Photography</option>
+                  <option value="Digital Card">Digital Card</option>
                 </select>
                 {/* <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                             <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>

@@ -7,7 +7,7 @@ function Walima() {
       title="Walima"
       eyebrow="Elegant Receptions"
       subtitle="Graceful floral stages and refined décor for your walima reception."
-      seo={{ path: "/walima", title: "Walima Stage Decoration in Lahore | Affordable Reception Decor", description: "Elegant walima & reception stage decoration in Lahore: white florals, fairy lights, chandeliers & pastel themes. 24+ walima designs at low cost." }}
+      seo={{ path: "/walima", title: "Walima Stage Decoration in Lahore & Punjab | Affordable Reception Decor", description: "Elegant walima & reception stage decoration in Lahore, Islamabad, Rawalpindi, Sialkot, Gujranwala & all Punjab: white florals, fairy lights, chandeliers & pastel themes. 24+ walima designs at low cost." }}
       fallbackPackages={walimaDesigns}
     />
   );

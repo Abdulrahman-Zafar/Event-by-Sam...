@@ -7,7 +7,7 @@ function Photography() {
       title="Photography"
       eyebrow="Wedding · Bridal · Couple · Party"
       subtitle="Professional photo shoots for shaadi functions, couples, portraits and celebrations."
-      seo={{ path: "/photography", title: "Wedding Photographer in Lahore | Affordable Photo Shoots", description: "Affordable wedding, bridal, mehndi, couple, fashion and party photography in Lahore. Professional photo shoots by Event By Salman Mughal." }}
+      seo={{ path: "/photography", title: "Wedding Photographer in Lahore, Islamabad & Punjab | Affordable Photoshoots", description: "Professional, affordable wedding photographer in Lahore, Islamabad, Rawalpindi, Faisalabad, Multan, Sialkot, Gujranwala & all Punjab: barat, walima, mehndi, bridal, pre-wedding, fashion & party photoshoots." }}
       fallbackPackages={photographyDesigns}
     />
   );

@@ -51,9 +51,9 @@ const serviceCards = [
 export default function Home() {
   useSeo({
     path: "/",
-    title: "Best Event Planner in Lahore | Affordable Wedding Decorators – Event By Salman Mughal",
+    title: "Best Event Planner in Lahore & Punjab | Affordable Wedding Decor & Photography – Event By Salman Mughal",
     description:
-      "Event By Salman Mughal – best & affordable event planner in Lahore and Muzaffargarh. Low-cost mehndi, barat & walima stage decoration, birthday parties, DJ, house lighting, photography & digital wedding cards.",
+      "Best & affordable event planner and wedding photographer in Lahore, Multan, Muzaffargarh, Faisalabad, Sialkot, Gujranwala, Bahawalpur, DG Khan, Islamabad & Rawalpindi. Low-cost mehndi, barat, walima & birthday decor, lighting, DJ & photography.",
   });
   const slides = heroSlides;
   const highlightCards = serviceCards;

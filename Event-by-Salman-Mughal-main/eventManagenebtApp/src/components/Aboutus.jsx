@@ -24,7 +24,7 @@ export default function About() {
     path: "/Aboutus",
     title: "About Us | Salman Mughal – Event Planner in Lahore",
     description:
-      "Meet Salman Mughal, founder of Event By Salman Mughal – a mechanical engineer turned passionate event planner in Lahore and Muzaffargarh.",
+      "Meet Salman Mughal, founder of Event By Salman Mughal – a mechanical engineer turned passionate event planner serving Lahore, Muzaffargarh and all of Punjab.",
   });
   return (
     <div className="bg-black text-white">

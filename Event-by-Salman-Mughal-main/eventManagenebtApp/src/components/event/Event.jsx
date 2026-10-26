@@ -94,9 +94,9 @@ const serviceCards = [
 function Event() {
   useSeo({
     path: "/event",
-    title: "All Event Services in Lahore | Wedding, Mehndi, Birthday & More",
+    title: "Event Services in Lahore & All Punjab | Wedding, Photography & More",
     description:
-      "Complete event services in Lahore & Muzaffargarh: mehndi, barat, walima, birthday, DJ, house lighting, photography and digital wedding cards at budget-friendly prices.",
+      "Complete event services in Lahore, Multan, Muzaffargarh, Faisalabad, Sialkot, Gujranwala, Bahawalpur, DG Khan, Islamabad & Rawalpindi: mehndi, barat, walima, birthday, DJ, house lighting, photography and digital wedding cards at budget-friendly prices.",
   });
     const features = eventFeatures;
     const cards = serviceCards;

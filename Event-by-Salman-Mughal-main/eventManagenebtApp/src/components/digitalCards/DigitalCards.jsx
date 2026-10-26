@@ -11,7 +11,7 @@ const digitalCards = [
     title: "Ayesha & Ahmed",
     style: "Ivory & Emerald · Royal Script",
     image: ayeshaAhmedCard,
-    url: "https://my-wedding-card-liart.vercel.app/",
+    url: "https://my-wedding-card-liart.vercel.app/?i=a8f3kq",
   },
 ];
 
@@ -25,9 +25,9 @@ const perks = [
 function DigitalCards() {
   useSeo({
     path: "/digital-cards",
-    title: "Digital Wedding Cards in Pakistan | Online Shaadi Invitations",
+    title: "Digital Wedding Cards in Lahore & Pakistan | Online Shaadi Invitations",
     description:
-      "Beautiful animated digital wedding cards and online shaadi invitations you can share on WhatsApp. Affordable e-cards by Event By Salman Mughal.",
+      "Affordable animated digital wedding cards & online invitations for nikah, mehndi, barat, walima and birthdays. Share on WhatsApp, no printing. Delivered across Lahore, Punjab & Pakistan.",
   });
   return (
     <div className="bg-[#faf6ef] min-h-screen pt-28 pb-20">
