@@ -1,9 +1,11 @@
 import React from "react";
+import { useSeo } from "../../lib/seo";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./styles.css";
+import SeoContent from "./SeoContent";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { WHATSAPP_BOOKING_LINK } from "../../lib/links";
@@ -47,6 +49,12 @@ const serviceCards = [
 ];
 
 export default function Home() {
+  useSeo({
+    path: "/",
+    title: "Best Event Planner in Lahore | Affordable Wedding Decorators – Event By Salman Mughal",
+    description:
+      "Event By Salman Mughal – best & affordable event planner in Lahore and Muzaffargarh. Low-cost mehndi, barat & walima stage decoration, birthday parties, DJ, house lighting, photography & digital wedding cards.",
+  });
   const slides = heroSlides;
   const highlightCards = serviceCards;
 
@@ -71,10 +79,11 @@ export default function Home() {
         <div className="hero-overlay" />
         <div className="slide-content">
           <p className="hero-eyebrow">Mehndi · Barat · Walima · Celebrations</p>
-          <h2 className="hero-title">
+          <h1 className="hero-title">
             <span className="hero-title-small">Event By</span>
             <span className="font-signature hero-title-script">Salman Mughal</span>
-          </h2>
+            <span className="sr-only"> – Best Event Planner in Lahore</span>
+          </h1>
           <div className="hero-divider">
             <span />
             <em>✦</em>
@@ -142,9 +151,9 @@ export default function Home() {
 
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl text-gray-900 mb-8 sm:mb-20 mt-10">
+          <h2 className="text-4xl sm:text-5xl text-gray-900 mb-8 sm:mb-20 mt-10">
             Creating Unforgettable Moments Together
-          </h1>
+          </h2>
           <div className="overflow-hidden rounded-lg  mb-10">
             <img
               src="https://images.pexels.com/photos/39820645/pexels-photo-39820645.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -154,9 +163,9 @@ export default function Home() {
           </div>
 
           <div className="overflow-hidden rounded-lg">
-            <h1 className="text-4xl sm:text-5xl text-gray-900 mb-8 sm:mb-20 ">
+            <h2 className="text-4xl sm:text-5xl text-gray-900 mb-8 sm:mb-20 ">
               Creating Unforgettable Moments Together
-            </h1>
+            </h2>
             <img
               src="https://images.pexels.com/photos/39629374/pexels-photo-39629374.jpeg?auto=compress&cs=tinysrgb&w=1600"
               className="w-full h-[500px] object-cover"
@@ -164,9 +173,9 @@ export default function Home() {
           </div>
 
           <div className="overflow-hidden rounded-lg  ">
-            <h1 className="text-4xl sm:text-5xl text-gray-900 mb-8 sm:mb-20 mt-10">
+            <h2 className="text-4xl sm:text-5xl text-gray-900 mb-8 sm:mb-20 mt-10">
               Creating Unforgettable Moments Together
-            </h1>
+            </h2>
             <img
               src="https://images.pexels.com/photos/34079355/pexels-photo-34079355.jpeg?auto=compress&cs=tinysrgb&w=1600"
               className="w-full h-[500px] object-cover"
@@ -174,9 +183,9 @@ export default function Home() {
           </div>
 
           <div className="overflow-hidden rounded-xl">
-            <h1 className="text-4xl sm:text-5xl text-gray-900 mb-8 sm:mb-20 mt-10">
+            <h2 className="text-4xl sm:text-5xl text-gray-900 mb-8 sm:mb-20 mt-10">
               Creating Unforgettable Moments Together
-            </h1>
+            </h2>
             <img
               src="https://images.pexels.com/photos/33914531/pexels-photo-33914531.jpeg?auto=compress&cs=tinysrgb&w=1600"
               className="w-full h-[500px] object-cover"
@@ -221,9 +230,9 @@ export default function Home() {
 
         <div className="relative z-10 w-full max-w-7xl mx-auto py-16 sm:py-24">
           <div className="text-center mb-16">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl  tracking-tight mb-6">
+            <h2 className="text-5xl sm:text-6xl md:text-7xl  tracking-tight mb-6">
               Unforgettable Customized Event Planning
-            </h1>
+            </h2>
 
             <p className="text-md sm:text-lg text-red-100 mb-10">
               Creating special occasions, from weddings to mehndi celebrations.
@@ -286,6 +295,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <SeoContent />
     </>
   );
 }

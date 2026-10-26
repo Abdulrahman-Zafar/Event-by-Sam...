@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { X, ChevronLeft, ChevronRight, Expand } from "lucide-react";
+import { useSeo } from "../../lib/seo";
 
 /**
  * Shared design gallery used by every event page (Mehndi, Barat, Walima,
  * Birthday, Lighting, Sound System).
  * `fallbackPackages` is the list of designs to show (from src/data/eventDesigns.js).
  */
-function PackageGrid({ title, subtitle, eyebrow, heroImage, fallbackPackages }) {
+function PackageGrid({ title, subtitle, eyebrow, heroImage, fallbackPackages, seo }) {
   const packages = fallbackPackages;
+  useSeo(seo);
   const [active, setActive] = useState(null); // { pkg, index }
 
   const [filter, setFilter] = useState("All");

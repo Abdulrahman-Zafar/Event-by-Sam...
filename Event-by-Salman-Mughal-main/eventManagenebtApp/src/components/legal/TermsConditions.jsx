@@ -1,8 +1,15 @@
 import React from "react";
+import { useSeo } from "../../lib/seo";
 import LegalPage, { LegalSection } from "./LegalPage";
 import { CancellationPolicy, PaymentPolicy } from "./BookingPolicy";
 
 function TermsConditions() {
+  useSeo({
+    path: "/terms-and-conditions",
+    title: "Terms & Conditions",
+    description:
+      "Terms and conditions for event bookings with Event By Salman Mughal.",
+  });
   return (
     <LegalPage
       title="Terms & Conditions"

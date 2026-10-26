@@ -1,4 +1,5 @@
 import React from "react";
+import { useSeo } from "../../lib/seo";
 import { Link } from "react-router-dom";
 import { ExternalLink, Smartphone, Share2, Sparkles, Music2 } from "lucide-react";
 import ayeshaAhmedCard from "../../assets/digital-card-ayesha-ahmed.png";
@@ -22,6 +23,12 @@ const perks = [
 ];
 
 function DigitalCards() {
+  useSeo({
+    path: "/digital-cards",
+    title: "Digital Wedding Cards in Pakistan | Online Shaadi Invitations",
+    description:
+      "Beautiful animated digital wedding cards and online shaadi invitations you can share on WhatsApp. Affordable e-cards by Event By Salman Mughal.",
+  });
   return (
     <div className="bg-[#faf6ef] min-h-screen pt-28 pb-20">
       <section className="max-w-6xl mx-auto px-4 sm:px-6 text-center">

@@ -1,4 +1,5 @@
 import React from "react";
+import { useSeo } from "../../lib/seo";
 import { Routes, Route } from "react-router-dom";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { WHATSAPP_BOOKING_LINK, WHATSAPP_BOOKING_NUMBER, WHATSAPP_COMPLAINT_LINK } from "../../lib/links";
@@ -16,6 +17,12 @@ const officeAddresses = [
 ];
 
 function Contactus() {
+  useSeo({
+    path: "/contactus",
+    title: "Contact Us | Book an Event Planner in Lahore & Muzaffargarh",
+    description:
+      "Book your mehndi, barat, walima or birthday event. Call or WhatsApp 0310 6881263. Offices in Lahore and Muzaffargarh.",
+  });
   const settings = fallbackSettings;
   const selectedDesign = useLocation().state?.design;
   const inputStyle =

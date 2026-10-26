@@ -1,8 +1,15 @@
 import React from "react";
+import { useSeo } from "../../lib/seo";
 import LegalPage, { LegalSection } from "./LegalPage";
 import { CancellationPolicy, PaymentPolicy } from "./BookingPolicy";
 
 function PrivacyPolicy() {
+  useSeo({
+    path: "/privacy-policy",
+    title: "Privacy & Booking Policy",
+    description:
+      "Privacy, payment (40% advance) and cancellation policy for bookings with Event By Salman Mughal.",
+  });
   return (
     <LegalPage
       title="Privacy & Booking Policy"

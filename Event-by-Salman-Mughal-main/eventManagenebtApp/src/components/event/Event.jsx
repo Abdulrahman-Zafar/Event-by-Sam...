@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSeo } from "../../lib/seo";
 import { Link } from 'react-router-dom';
 const eventFeatures = [
     {
@@ -91,6 +92,12 @@ const serviceCards = [
 ];
 
 function Event() {
+  useSeo({
+    path: "/event",
+    title: "All Event Services in Lahore | Wedding, Mehndi, Birthday & More",
+    description:
+      "Complete event services in Lahore & Muzaffargarh: mehndi, barat, walima, birthday, DJ, house lighting, photography and digital wedding cards at budget-friendly prices.",
+  });
     const features = eventFeatures;
     const cards = serviceCards;
 

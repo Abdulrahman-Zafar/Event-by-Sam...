@@ -1,4 +1,5 @@
 import React from "react";
+import { useSeo } from "../lib/seo";
 import { motion } from "framer-motion";
 import ceoPhoto from "../assets/salman-mughal-ceo.jpg";
 
@@ -19,6 +20,12 @@ const features = [
 
 
 export default function About() {
+  useSeo({
+    path: "/Aboutus",
+    title: "About Us | Salman Mughal – Event Planner in Lahore",
+    description:
+      "Meet Salman Mughal, founder of Event By Salman Mughal – a mechanical engineer turned passionate event planner in Lahore and Muzaffargarh.",
+  });
   return (
     <div className="bg-black text-white">
 
